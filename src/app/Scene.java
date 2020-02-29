@@ -6,7 +6,6 @@ import events.Event;
 import events.window.WindowResizeEvent;
 import javafx.scene.Group;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 
 public abstract class Scene extends javafx.scene.Scene {
 	

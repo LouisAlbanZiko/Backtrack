@@ -32,7 +32,6 @@ public class App extends Application {
 		window.setTitle("Backtrack");
 		window.setWidth(800);
 		window.setHeight(600);
-	
 	}
 	
 	

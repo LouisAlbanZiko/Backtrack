@@ -65,6 +65,7 @@ public abstract class Application extends javafx.application.Application {
 		if(id < 0 || id >= scenes.size())
 			return;
 		window.setScene(scenes.get(id));
+		window.centerOnScreen();
 		currentScene = id;
 		scenes.get(currentScene).dispatch(new SceneChangeEvent(scenes.get(currentScene)));
 	}

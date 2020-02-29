@@ -81,14 +81,6 @@ public class Background extends Layer {
 		howToPlay.onEvent(event);
 		scores.onEvent(event);
 		text.onEvent(event);
-	//	if(event instanceof WindowResizeEvent || event instanceof SceneChangeEvent) {
-	//		System.out.println(getWidth());
-	///		System.out.println(getHeight());
-		//	start.setPosition((float)(getWidth() - start.getWidth()) / 2, (float)(getHeight() - start.getHeight()) / 2 - 60);
-		//	howToPlay.setPosition((float)(getWidth() - howToPlay.getWidth()) / 2, start.getY() + start.getHeight());
-		//	scores.setPosition((float)(getWidth() - scores.getWidth()) / 2, howToPlay.getY() + howToPlay.getHeight());
-		//	text.setPosition((float)(getWidth() - text.getWidth()) / 2, (float)(getHeight() - text.getHeight()) / 2 - 200);
-		//}
 		return super.onEvent(event);
 	}
 }
